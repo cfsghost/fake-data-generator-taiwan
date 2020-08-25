@@ -1,7 +1,7 @@
 {
-  "name": "fake-data-generator",
+  "name": "fake-data-generator-taiwan",
   "version": "1.0.0",
-  "description": "Generate fake data for testing",
+  "description": "Generate fake data for testing in Taiwan",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -21,7 +21,7 @@
   "author": "Fred Chien <cfsghost@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cfsghost/fake-data-generator/issues"
+    "url": "https://github.com/cfsghost/fake-data-generator-taiwan/issues"
   },
-  "homepage": "https://github.com/cfsghost/fake-data-generator#readme"
+  "homepage": "https://github.com/cfsghost/fake-data-generator-taiwan#readme"
 }
