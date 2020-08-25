@@ -1,6 +1,6 @@
 {
   "name": "fake-data-generator-taiwan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate fake data for testing in Taiwan",
   "main": "index.js",
   "directories": {
