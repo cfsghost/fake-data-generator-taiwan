@@ -5,16 +5,14 @@
 
 好用的台灣假資料產生器，用於隨機產生測試用的假個資。
 
-It is a useful library to generate fake data for testing in Taiwan.
-
 ## Supported Data types
 
 目前已支援資料類型：
 
-* 繁體中文姓名 (Traditional Chinese Name) : 常見三個字、單名、複姓
-* 台灣身分證字號 (ID Number)：符合規範的身分證字號、支援第三性保留編號
-* 手機號碼（Mobile Phone）：台灣地區常用的 09 開頭的手機號碼
-* 台灣地址（Address）：合法的完整地址，包括城市、區域、街、巷、弄、門牌號（包括附號）及樓層
+* 繁體中文姓名 (Traditional Chinese Name) : 常見三個字、單名、複姓（依照常用字權重）
+* 台灣身分證字號 (ID Number)：符合規範的身分證字號、支援第三性保留編號（但出現機率只有千分之五）
+* 手機號碼（Mobile Phone）：台灣地區常用的 09 開頭的合法手機號碼格式
+* 台灣地址（Address）：合法格式的完整地址，包括城市、區域、街、巷、弄、門牌號（包括附號）及樓層
 
 ## Installation
 
@@ -53,7 +51,7 @@ for (let i = 0; i < num; i++) {
 }
 ```
 
-會隨機生成以下假資料：
+會隨機生成類似下面結果的假資料：
 
 ```shell
 ...
